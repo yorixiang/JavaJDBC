@@ -53,6 +53,7 @@ public class CRUDdemo {
 			e.printStackTrace();
 		} finally {
 			try {
+				preparedstatement.close();
 				if (connection != null)
 					connection.close();
 			} catch (SQLException e) {
@@ -92,6 +93,7 @@ public class CRUDdemo {
 			e.printStackTrace();
 		} finally {
 			try {
+				preparedstatement.close();
 				if (connection != null)
 					connection.close();
 			} catch (SQLException e) {
@@ -134,6 +136,7 @@ public class CRUDdemo {
 			e.printStackTrace();
 		} finally {
 			try {
+				preparedstatement.close();
 				if (connection != null)
 					connection.close();
 			} catch (SQLException e) {
@@ -157,6 +160,7 @@ public class CRUDdemo {
 			e.printStackTrace();
 		} finally {
 			try {
+				preparedstatement.close();
 				if (connection != null)
 					connection.close();
 			} catch (SQLException e) {
